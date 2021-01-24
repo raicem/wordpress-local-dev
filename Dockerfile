@@ -9,6 +9,10 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install --no-instal
     mysql-client \ 
     php7.4-cli \
     php7.4-mysql \
+    php7.4-curl \
+    php7.4-gd \
+    php7.4-xml \
+    php7.4-mbstring \
     ; \
     rm -rf /var/lib/apt/lists/*;
 
