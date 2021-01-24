@@ -4,10 +4,9 @@ I find the [official WordPress image](https://hub.docker.com/_/wordpress) very b
 This image built by:
 - Extending from Ubuntu 20.04 image
 - Installing PHP 7.4 and development tools such [WP-CLI](https://wp-cli.org)
-- Mounting `wp-config.php` and `wp-content/` into the WordPress in container
 
 ## Installation
-You can start the container via:
+You can start the container and mount your project files via:
 ```sh
 PROJECT_NAME=your_project;
 
